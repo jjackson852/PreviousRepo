@@ -23,6 +23,6 @@ public class ConnectaTechApp extends Application {
     defaultACL.setPublicReadAccess(true);
     
     ParseACL.setDefaultACL(defaultACL, true);
-
+      //Testing Push
   }
 }
