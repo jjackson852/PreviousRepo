@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:weightSum="1" android:background="#ffe6f2ff" android:gravity="top">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Connect a Tech" android:id="@+id/Welcome"
+        android:background="#ffbebebe" android:phoneNumber="false" android:gravity="center_vertical|center_horizontal"
+        android:height="10dp" android:enabled="false" android:textStyle="bold" android:typeface="normal"
+        android:layout_weight="0.09" android:textSize="22dp" android:textColor="#0066FF"/>
+
+</LinearLayout>
