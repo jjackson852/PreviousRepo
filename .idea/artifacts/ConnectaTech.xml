@@ -11,8 +11,6 @@
         </option>
       </options>
     </properties>
-    <root id="archive" name="ConnectaTech.apk">
-      <element id="android-final-package" facet="ConnectaTech/android/Android" />
-    </root>
+    <root id="archive" name="ConnectaTech.apk" />
   </artifact>
 </component>
