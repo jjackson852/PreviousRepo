@@ -23,8 +23,6 @@ public class ConnectaTechActivity1 extends Activity {
 
         Button mButton;
 
-
-
         mButton = (Button)findViewById(R.id.button1);
         mButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {

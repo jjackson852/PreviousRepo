@@ -12,7 +12,7 @@
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/UserName"
+            android:text="@string/FirstName"
             android:id="@+id/textView5"
             android:height="55dp" android:width="130dp" android:textSize="22dp" android:gravity="center_vertical|center_horizontal"
             android:layout_below="@+id/textView4" android:background="#f4f4f4f4"
@@ -38,4 +38,17 @@
             android:layout_marginBottom="153dp"
             android:layout_alignParentBottom="true" android:layout_alignRight="@+id/editText"
             android:layout_marginRight="45dp" android:textSize="22dp" android:gravity="center_vertical|center_horizontal"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/LastName"
+              android:id="@+id/textView8" android:height="55dp" android:width="130dp" android:textSize="22dp"
+              android:gravity="center_vertical|center_horizontal"
+              android:background="#f4f4f4f4" android:autoText="false" android:visibility="visible"
+              android:phoneNumber="false" android:layout_below="@+id/textView5" android:layout_alignParentLeft="true"/>
+    <EditText android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:inputType="textPersonName" android:ems="10" android:id="@+id/editText3"
+              android:width="55dp"
+              android:visibility="visible" android:typeface="normal"
+              android:background="#ffffffff" android:autoText="true"
+              android:textSize="22dp" android:gravity="center_vertical|center_horizontal"
+              android:layout_alignTop="@+id/textView8" android:layout_toRightOf="@+id/textView8"
+              android:layout_alignBottom="@+id/textView8" android:layout_alignRight="@+id/editText"/>
 </RelativeLayout>
