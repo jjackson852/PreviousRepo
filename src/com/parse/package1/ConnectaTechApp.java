@@ -21,11 +21,7 @@ public class ConnectaTechApp extends Application {
       
     // If you would like all objects to be private by default, remove this line.
     defaultACL.setPublicReadAccess(true);
-    //test
-    ParseACL.setDefaultACL(defaultACL, true);
-      //Testing Push2
 
-      //Testing Push 3 - Adam
-      //Update Master
+    ParseACL.setDefaultACL(defaultACL, true);
   }
 }
