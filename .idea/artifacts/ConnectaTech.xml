@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="apk" name="ConnectaTech">
+  <artifact type="apk" build-on-make="true" name="ConnectaTech">
     <output-path>$PROJECT_DIR$/out/artifacts/ConnectaTech</output-path>
     <properties id="android-properties">
       <options>
