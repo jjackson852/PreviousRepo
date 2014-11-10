@@ -3,10 +3,13 @@ package com.parse.package1;
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.parse.package1.ConnectaTechApp;import com.parse.ParseAnalytics;
-import com.parse.ParseObject;import com.parse.package1.R;
+import android.view.View;
+import android.widget.Button;
+import com.parse.ParseAnalytics;
+import com.parse.ParseObject;
 
 public class ConnectaTechActivity1 extends Activity {
+    int i = 0;
 	/** Called when the activity is first created. */
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -14,11 +17,19 @@ public class ConnectaTechActivity1 extends Activity {
 
 		ParseAnalytics.trackAppOpened(getIntent());
 
-        ParseObject customer = new ParseObject("Customer");
-        customer.put("First Name", "Adam");
-        customer.put("Last Name", "Jacobs");
-        customer.saveInBackground();
 
+        Button mButton;
+        mButton = (Button)findViewById(R.id.button1);
+        mButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                ParseObject customer = new ParseObject("Customer");
+                customer.put("firstName", "James");
+                customer.put("lastName", "Jackson" + i);
+                customer.saveInBackground();
+                i++;
+
+            }
+        });
 
 	}
 }

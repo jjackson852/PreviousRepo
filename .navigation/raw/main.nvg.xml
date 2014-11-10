@@ -6,10 +6,23 @@
     <entry>
       <key      
         class = "com.android.navigation.ActivityState"      
-        className = "com.example.ConnectaTech.ConnectaTechActivity1">
+        className = "com.parse.package1.ConnectaTechActivity1">
         <location        
+          id = "point0"        
           x = "0"        
           y = "0"/>
+      </key>
+      <value      
+        x = "480"      
+        y = "160"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.ActivityState"      
+        className = "com.example.ConnectaTech.ConnectaTechActivity1">
+        <location        
+          idref = "point0"/>
       </key>
       <value      
         x = "480"      

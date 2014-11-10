@@ -1,15 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" android:weightSum="1" android:background="#ffe6f2ff" android:gravity="top">
-
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/Layout1">
+    <TextView android:layout_width="399dp" android:layout_height="wrap_content" android:text="Welcome to Connect a Tech"
+              android:id="@+id/textView4" android:background="#ffbebebe" android:phoneNumber="false"
+              android:gravity="center_vertical|center_horizontal" android:height="55dp" android:enabled="false"
+              android:textStyle="bold" android:typeface="normal" android:layout_weight="0.09" android:textSize="22dp"
+              android:textColor="#0066FF" android:layout_gravity="center_horizontal" android:layout_column="0"
+              android:width="1000dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Welcome to Connect a Tech" android:id="@+id/Welcome"
-        android:background="#ffbebebe" android:phoneNumber="false" android:gravity="center_vertical|center_horizontal"
-        android:height="10dp" android:enabled="false" android:textStyle="bold" android:typeface="normal"
-        android:layout_weight="0.09" android:textSize="22dp" android:textColor="#0066FF"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/UserName"
+            android:id="@+id/textView5"
+            android:height="55dp" android:width="130dp" android:textSize="22dp" android:gravity="center_vertical|center_horizontal"
+            android:layout_below="@+id/textView4" android:background="#f4f4f4f4"
+            android:autoText="false" android:visibility="visible" android:phoneNumber="false"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText" android:layout_below="@+id/textView4" android:layout_toRightOf="@+id/textView5"
+            android:width="55dp" android:visibility="visible" android:layout_alignBottom="@+id/textView5"
+            android:typeface="normal" android:layout_alignParentRight="true" android:background="#ffffffff"
+            android:autoText="true" android:textSize="22dp" android:gravity="center_vertical|center_horizontal"/>
 
-</LinearLayout>
+    <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0099FF"
+            android:text="@string/sub"
+            android:textColor="#FFFFFF" android:width="130dp"
+            android:visibility="visible" android:height="55dp"
+            android:layout_marginBottom="153dp"
+            android:layout_alignParentBottom="true" android:layout_alignRight="@+id/editText"
+            android:layout_marginRight="45dp" android:textSize="22dp" android:gravity="center_vertical|center_horizontal"/>
+</RelativeLayout>
