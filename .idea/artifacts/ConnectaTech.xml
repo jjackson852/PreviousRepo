@@ -11,6 +11,9 @@
         </option>
       </options>
     </properties>
+    <properties id="ant-preprocessing">
+      <options enabled="true" />
+    </properties>
     <root id="archive" name="ConnectaTech.apk" />
   </artifact>
 </component>
