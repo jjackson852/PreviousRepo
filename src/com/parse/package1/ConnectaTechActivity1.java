@@ -14,9 +14,10 @@ public class ConnectaTechActivity1 extends Activity {
 
 		ParseAnalytics.trackAppOpened(getIntent());
 
-        ParseObject testObject = new ParseObject("TestObject");
-        testObject.put("foo", "bar");
-        testObject.saveInBackground();
+        ParseObject customer = new ParseObject("Customer");
+        customer.put("First Name", "Adam");
+        customer.put("Last Name", "Jacobs");
+        customer.saveInBackground();
 
 
 	}
