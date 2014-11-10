@@ -13,10 +13,12 @@ public class ConnectaTechActivity1 extends Activity {
 		setContentView(R.layout.main);
 
 		ParseAnalytics.trackAppOpened(getIntent());
-/**testjrm*/
+
         ParseObject testObject = new ParseObject("TestObject");
         testObject.put("foo", "bar");
         testObject.saveInBackground();
+
+        // Hello TC
 
 
 	}
