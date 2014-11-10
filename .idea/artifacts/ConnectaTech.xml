@@ -14,6 +14,8 @@
     <properties id="ant-preprocessing">
       <options enabled="true" />
     </properties>
-    <root id="archive" name="ConnectaTech.apk" />
+    <root id="archive" name="ConnectaTech.apk">
+      <element id="android-final-package" facet="ConnectaTech/android/Android" />
+    </root>
   </artifact>
 </component>
