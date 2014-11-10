@@ -18,7 +18,6 @@ public class ConnectaTechActivity1 extends Activity {
         testObject.put("foo", "bar");
         testObject.saveInBackground();
 
-        // test comment TC automated trigger for github
 
 
 
