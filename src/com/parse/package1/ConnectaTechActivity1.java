@@ -1,5 +1,6 @@
 package com.parse.package1;
 
+
 import android.app.Activity;
 import android.os.Bundle;
 
@@ -19,7 +20,6 @@ public class ConnectaTechActivity1 extends Activity {
 		setContentView(R.layout.main);
 
 		ParseAnalytics.trackAppOpened(getIntent());
-
 
         Button mButton;
 
