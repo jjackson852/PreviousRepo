@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="apk" build-on-make="true" name="ConnectaTech">
-    <output-path>$PROJECT_DIR$/out/artifacts/ConnectaTech</output-path>
+  <artifact type="apk" name="ConnectaTech">
+    <output-path>$PROJECT_DIR$/out/artifacts/ConnectaTech-Adam</output-path>
     <properties id="android-properties">
       <options>
         <option name="keyStoreUrl" value="file://" />
