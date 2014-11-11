@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="sub">Submit</string>
+    <string name="CustAcc">Customer Account Creation</string>
+
     <string name="UserName">User Name</string>
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="EmailAddress">Email</string>
     <string name="app_name">ConnectaTech</string>
 </resources>
