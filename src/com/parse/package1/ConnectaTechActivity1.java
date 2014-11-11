@@ -31,7 +31,8 @@ public class ConnectaTechActivity1 extends Activity {
                 ParseObject customer = new ParseObject("Customer");
                 customer.put("firstName", mEdit.getText().toString());
                 customer.put("lastName", "Jackson" + i);
-//test
+                String blah = customer.getObjectId();
+//test2
                 customer.saveInBackground();
                 i++;
 
