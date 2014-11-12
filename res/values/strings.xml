@@ -7,5 +7,7 @@
     <string name="FirstName">First Name</string>
     <string name="LastName">Last Name</string>
     <string name="EmailAddress">Email</string>
+    <string name="PhoneNum">Phone</string>
+    <string name="altPhoneNum">Alt. Phone</string>
     <string name="app_name">ConnectaTech</string>
 </resources>

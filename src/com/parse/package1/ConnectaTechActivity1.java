@@ -23,7 +23,7 @@ public class ConnectaTechActivity1 extends Activity {
 
         Button mButton;
 
-        mButton = (Button)findViewById(R.id.button1);
+        mButton = (Button)findViewById(R.id.button3);
         mButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 mEdit   = (EditText)findViewById(R.id.editText);
@@ -31,7 +31,8 @@ public class ConnectaTechActivity1 extends Activity {
                 ParseObject customer = new ParseObject("Customer");
                 customer.put("firstName", mEdit.getText().toString());
                 customer.put("lastName", "Jackson" + i);
-
+                String blah = customer.getObjectId();
+//test2
                 customer.saveInBackground();
                 i++;
 

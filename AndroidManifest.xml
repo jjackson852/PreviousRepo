@@ -32,7 +32,8 @@
         android:label="@string/app_name" >
         <activity
             android:name="com.parse.package1.ConnectaTechActivity1"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
