@@ -32,7 +32,7 @@ public class ConnectaTechActivity1 extends Activity {
                 customer.put("firstName", mEdit.getText().toString());
                 customer.put("lastName", "Jackson" + i);
                 String blah = customer.getObjectId();
-//test2
+//test34
                 customer.saveInBackground();
                 i++;
 
