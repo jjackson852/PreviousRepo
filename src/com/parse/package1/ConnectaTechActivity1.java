@@ -46,6 +46,7 @@ public class ConnectaTechActivity1 extends Activity {
                 customer.saveInBackground();
                 i++;
 */
+    //test
     public void login(View view){
         if(username.getText().toString().equals("admin") &&
                 password.getText().toString().equals("admin")){
