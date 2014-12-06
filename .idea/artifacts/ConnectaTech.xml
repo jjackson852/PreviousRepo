@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="apk" name="ConnectaTech">
-    <output-path>C:/public_html</output-path>
+    <output-path>C:/</output-path>
     <properties id="android-properties">
       <options>
         <option name="keyStoreUrl" value="file://" />
@@ -9,6 +9,7 @@
             <option value="file://%MODULE_SDK_HOME%/tools/proguard/proguard-android.txt" />
           </list>
         </option>
+        <option name="signingMode" value="DEBUG" />
       </options>
     </properties>
     <root id="archive" name="ConnectaTech.apk">
