@@ -4,7 +4,8 @@
     android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/Layout1">
 
-    <ScrollView android:layout_width="fill_parent" android:layout_height="350dp" android:id="@+id/scrollView">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="475dp" android:id="@+id/scrollView"
+                android:layout_alignParentTop="true">
 
         <RelativeLayout
             android:layout_width="fill_parent"
@@ -88,8 +89,40 @@
                     android:inputType="textPersonName" android:ems="10" android:id="@+id/editText5" android:width="55dp"
                     android:visibility="visible" android:typeface="normal" android:background="#ffffffff"
                     android:autoText="true" android:textSize="22dp" android:gravity="center_vertical|center_horizontal"
-                    android:layout_below="@+id/textView" android:layout_toRightOf="@+id/textView2"
-                    android:layout_alignBottom="@+id/textView2" android:layout_alignRight="@+id/editText2"/>
+                    android:layout_below="@+id/textView"
+                    android:layout_alignRight="@+id/editText2" android:layout_alignBottom="@+id/textView2"
+                    android:layout_toRightOf="@+id/textView2"/>
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="@string/UserName" android:id="@+id/textView3" android:height="55dp"
+                      android:width="130dp" android:textSize="22sp" android:gravity="center_vertical|center_horizontal"
+                      android:background="#f4f4f4f4" android:autoText="false"
+                      android:visibility="visible" android:phoneNumber="false" android:layout_below="@+id/textView2"
+                      android:layout_alignParentLeft="true"/>
+            <EditText android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:inputType="textPersonName" android:ems="10" android:id="@+id/editText6"
+                      android:width="55dp" android:visibility="visible"
+                      android:typeface="normal" android:background="#ffffffff"
+                      android:autoText="true" android:textSize="22dp"
+                      android:gravity="center_vertical|center_horizontal" android:layout_below="@+id/editText5"
+                      android:layout_toRightOf="@+id/textView2" android:layout_alignBottom="@+id/textView3"
+                      android:layout_alignRight="@+id/editText5"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="@string/Password" android:id="@+id/textView6" android:height="55dp"
+                      android:width="130dp" android:textSize="22sp" android:gravity="center_vertical|center_horizontal"
+                      android:background="#f4f4f4f4" android:autoText="false" android:visibility="visible"
+                      android:phoneNumber="false"
+                      android:layout_below="@+id/textView3" android:layout_alignParentLeft="true"/>
+            <EditText android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:inputType="textPassword" android:ems="10" android:id="@+id/editText8"
+                      android:width="55dp" android:visibility="visible" android:typeface="normal"
+                      android:background="#ffffffff" android:autoText="true" android:textSize="22dp"
+                      android:gravity="center_vertical|center_horizontal"
+                      android:layout_below="@+id/editText6" android:layout_toRightOf="@+id/textView6"
+                      android:layout_alignBottom="@+id/textView6" android:layout_alignRight="@+id/editText6"/>
         </RelativeLayout>
     </ScrollView>
     <Button
@@ -99,7 +132,7 @@
             android:width="130dp" android:visibility="visible" android:textSize="22dp"
             android:gravity="center_vertical|clip_horizontal|center_horizontal"
             android:height="55dp"
-            android:layout_alignParentBottom="true" android:layout_alignParentRight="true"
-            android:layout_marginBottom="67dp"/>
+            android:layout_alignParentRight="true" android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"/>
 
 </RelativeLayout>

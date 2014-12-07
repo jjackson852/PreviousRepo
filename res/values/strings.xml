@@ -3,7 +3,8 @@
     <string name="sub">Submit</string>
     <string name="CustAcc">Customer Account Creation</string>
 
-    <string name="UserName">User Name</string>
+    <string name="UserName">Username</string>
+    <string name="Password">Password</string>
     <string name="FirstName">First Name</string>
     <string name="LastName">Last Name</string>
     <string name="EmailAddress">Email</string>
