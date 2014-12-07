@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="sub">Submit</string>
-    <string name="CustAcc">Customer Account Creation</string>
+    <string name="CustAcc">Customer Registration</string>
 
     <string name="UserName">Username</string>
     <string name="Password">Password</string>
